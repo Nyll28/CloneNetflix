@@ -1,0 +1,167 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*BASE*/
+body{
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+    
+}
+
+header .container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+ 
+}
+
+
+header .container nav{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+header .container nav .icones{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    justify-content: flex-end;
+    position: absolute;
+    right: 4%;        
+   
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    
+}
+header nav a:hover{
+    color:#fff;
+
+}
+
+                     /*FILME PRINCIPAL*/
+.filme-principal{
+    font-size: 16px;
+    background: url('/img/destaque.png');
+
+    height: 630px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 4px 0px 0px;
+
+}   
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+    
+}
+
+.tituloFilme{
+    font-size: 35px;
+   
+}
+/*ÍCONES*/
+
+.icones{
+    flex-direction: row;
+}
+
+
+.iconePesquisa{
+   background-color: rgb(14, 13, 13);
+
+  
+}
+.notificacao{
+    background-color: rgb(12, 12, 12);
+}
+
+.conta{
+    background-color: #fff;
+}
+
+
+ /*BOTOES*/
+
+.botoes{
+
+    color: rgb(131, 130, 130);
+
+}
+.botao{
+    font-size: 15px;
+    font-weight:600;
+    color: black;
+    background-color:white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5%;
+    margin-right: 10px;
+
+    cursor: pointer;
+    transition: .3s ease all ;
+    
+}
+
+.botao:hover{
+    background-color:rgb(156, 156, 156);
+    
+
+}
+.botao i{
+    margin-right: 8px;
+
+}
+
+.container{
+    margin-left: 20px;
+    
+
+
+}
+.filme-principal container{
+     width: 60%;
+
+}
+ 
+.top4{
+   margin-top: 40px;
+   padding: 20px 20px 20px;
+   margin-left: 10px;
+ 
+}
+
+.lançamentos{
+    margin-left: 20px;
+  
+}
+
