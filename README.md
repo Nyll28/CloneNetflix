@@ -2,7 +2,7 @@
 
 ## Sobre o projeto:
 
-Apenas para fins didáticos, essa aplicação simula uma tela inicial do site da Netflix(todos os direitos reservados). Esse projeto foi construído junto do curso com a Kanzie academmy e Digital Inovvation.
+Apenas para fins didáticos, essa aplicação simula uma tela inicial do site da Netflix(todos os direitos reservados). Esse projeto foi construído junto ao curso com a Kanzie academmy e Digital Inovvation.
 
 #### <div align="right">- Projeto Finalizado 🟢 <div>
 
